@@ -8,7 +8,7 @@ app.use(express.json())
 
 const detailsRouter = require('./routes/details')
 
-app.use('/details',detailsRouter)
+app.use('/api/details',detailsRouter)
 
 app.listen(5000, () => {
     console.log('Server running on port 5000')
